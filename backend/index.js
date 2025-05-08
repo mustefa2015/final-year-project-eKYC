@@ -20,7 +20,7 @@ const server = http.createServer(app);
 // Allowed CORS origins
 const allowedOrigins = [
   "https://myfayda.up.railway.app",  // Vite dev server
-  "https://myfayda-backend-portal.up.railway.app:5000",  // Optional fallback
+  "https://myfayda-backend-portal.up.railway.app",  // Optional fallback
 ];
 
 // CORS middleware
