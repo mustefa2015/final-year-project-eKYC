@@ -1,0 +1,14 @@
+{
+  "receivedAt": "2025-05-08T04:41:22.285Z",
+  "clientId": "68179c2ea9bd7e43b97608f4",
+  "payload": {
+    "clientId": "68179c2ea9bd7e43b97608f4",
+    "userId": "demoUserId001",
+    "fan": "1234567890123",
+    "name": "JWT Test User",
+    "email": "test@demo.com",
+    "phoneNumber": "+251912345678",
+    "iat": 1746679261,
+    "exp": 1746679561
+  }
+}

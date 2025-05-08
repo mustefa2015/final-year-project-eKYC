@@ -1,0 +1,35 @@
+{
+  "receivedAt": "2025-05-08T09:08:38.343Z",
+  "clientId": "68179c2ea9bd7e43b97608f4",
+  "payload": {
+    "clientId": "68179c2ea9bd7e43b97608f4",
+    "userId": "681c749504e6c5a75381951e",
+    "fan": "3485327089250384",
+    "photo": "https://res.cloudinary.com/dnsnj1z1g/image/upload/v1746695316/fayda-kyc/user_3485327089250384_1746695315458.jpg",
+    "name": "Natinael Samuel Assefa",
+    "email": "diguwasofts@gmail.com",
+    "firstName": "Natinael",
+    "middleName": "Samuel",
+    "lastName": "Assefa",
+    "region": "Addis Ababa",
+    "dateOfBirth": "2003-02-05",
+    "zone": "Nifas Silk-Lafto",
+    "gender": "male",
+    "woreda": "Woreda 06",
+    "nationality": "Ethiopian",
+    "phoneNumber": "0904161978",
+    "security": {
+      "hashAlgorithm": "bcrypt",
+      "saltRounds": 12,
+      "hashedAt": "2025-05-08T09:08:36.822Z"
+    },
+    "metadata": {
+      "registeredVia": "API",
+      "registrationClient": "68179c2ea9bd7e43b97608f4",
+      "apiKeyId": "68179c2ea9bd7e43b97608f6"
+    },
+    "verificationStatus": "Email verification will be initiated soon",
+    "iat": 1746695318,
+    "exp": 1746695618
+  }
+}
