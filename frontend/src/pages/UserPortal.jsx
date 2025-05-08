@@ -253,6 +253,7 @@ const Signup = () => {
                     callbackUrl.searchParams.set("userId", userId);
                     callbackUrl.searchParams.set("fan", FAN);
                     callbackUrl.searchParams.set("name", name);
+                    console.log("Redirecting to:", callbackUrl.toString());
                     window.location.href = callbackUrl.toString();
                 } else {
                     console.error("Missing redirect URL");
