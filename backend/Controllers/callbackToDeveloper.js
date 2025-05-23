@@ -47,7 +47,7 @@ export async function sendToDeveloperCallback(clientId, newUserData) {
   };
 
   // 3) sign JWT
-  const token = jwt.sign(payload, developer.secretKey, { algorithm: 'HS256', expiresIn: '5m' });
+  const token = jwt.sign(payload, developer.secretKey, { algorithm: 'HS256', expiresIn: '25m' });
 
   const headers = {
     'Content-Type': 'application/json',
@@ -55,7 +55,7 @@ export async function sendToDeveloperCallback(clientId, newUserData) {
   };
 
   // 4) deliver with retries
-  const maxAttempts = 3;
+  const maxAttempts = 10;
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       await axios.post(developer.callbackURL, { token }, { headers, timeout: 5000 });
